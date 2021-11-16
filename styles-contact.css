@@ -82,7 +82,7 @@ html, body {
 }
 
 h1 {
-	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
+	font-family: garamond, sans-serif;
 	font-size: 2em;
     margin: 0px auto 10px auto;
     color: #fff;
