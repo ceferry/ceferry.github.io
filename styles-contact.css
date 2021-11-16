@@ -82,14 +82,14 @@ html, body {
 }
 
 h1 {
-	font-family: garamond, sans-serif;
+	font-family: garamond, serif;
 	font-size: 2em;
     margin: 0px auto 10px auto;
     color: #fff;
 }
 
 h2 {
-	font-family: adorn-garland, sans-serif;
+	font-family: orbe, serif;
 	font-weight: 400;
 	font-style: normal;
 	font-size: 1.5em;
