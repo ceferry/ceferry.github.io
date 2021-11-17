@@ -85,14 +85,14 @@ html, body {
 }
 
 h1 {
-	font-family: 'garamond', serif;
+	font-family: garamond, serif;
 	font-size: 2em;
     margin: 0px auto 10px auto;
     color: #fff;
 }
 
 h2 {
-	font-family: 'orbe', serif;
+	font-family: bely-display, sans-serif;
 	font-weight: 400;
 	font-style: normal;
 	font-size: 1.5em;
@@ -103,13 +103,13 @@ h2 {
 }
 
 p {
-	font-family: 'garamond', serif;
+	font-family: garamond, serif;
 	font-size: 1.2em;
     line-height: 1.6;
     color: #fff;
 }
 nav{
-	font-family: garamond;
+	font-family: garamond, serif;
 	font-size: 1.2em;
 	width: 400px;
 	margin: 0 auto;
