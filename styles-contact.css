@@ -86,14 +86,14 @@ html, body {
 }
 
 h1 {
-	font-family: M, serif;
+	font-family: , serif;
 	font-size: 2em;
     margin: 0px auto 10px auto;
     color: #A1B1B7;
 }
 
 h2 {
-	font-family: <link rel="stylesheet" href="https://use.typekit.net/ysr3eor.css"> , serif;
+	font-family: kansasnew, serif; <link rel="stylesheet" href="https://use.typekit.net/ysr3eor.css"> , serif;
 	font-weight: 400;
 	font-style: normal;
 	font-size: 1.5em;
