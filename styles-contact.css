@@ -64,8 +64,6 @@ html, body {
   center center fixed no-repeat;
   background-size: cover;
 	font-family: kansasnew, serif; <link rel="stylesheet" href="https://use.typekit.net/ysr3eor.css"> , serif;
-
-
 	
 	
 }
@@ -96,13 +94,9 @@ h1 {
 
 h2 {
 	font-family: kansasnew, serif; <link rel="stylesheet" href="https://use.typekit.net/ysr3eor.css"> , serif;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 1.2 em;
-    line-height: 1.4;
+	font-size: 1.2em;
+    line-height: 1.6;
     color: #A1B1B7;
-    padding: 0px 0px;
-    margin: 40px auto 40px auto;
 }
 
 p {
