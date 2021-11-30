@@ -63,7 +63,7 @@ html, body {
   background: url(/images/coast_background.jpeg)
   center center fixed no-repeat;
   background-size: cover;
-	font-family: "helvetica", sans-serif;
+  font-family: kansasnew, serif; <link rel="stylesheet" href="https://use.typekit.net/ysr3eor.css"> , serif;
 	
 	
 }
@@ -96,11 +96,11 @@ h2 {
 	font-family: kansasnew, serif; <link rel="stylesheet" href="https://use.typekit.net/ysr3eor.css"> , serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 1.5em;
+	font-size: 1.2em;
     line-height: 1.4;
     color: #A1B1B7;
     padding: 0px 0px;
-    margin: 0px auto 25px auto;
+    margin: 40px auto 40px auto;
 }
 
 p {
