@@ -86,31 +86,31 @@ html, body {
 }
 
 h1 {
-	font-family: garamond, serif;
+	font-family: KansasNew Medium, serif;
 	font-size: 2em;
     margin: 0px auto 10px auto;
-    color: #A75225;
+    color: #A1B1B7;
 }
 
 h2 {
-	font-family: bely-display, sans-serif;
+	font-family: KansasNew Medium, serif;
 	font-weight: 400;
 	font-style: normal;
 	font-size: 1.5em;
     line-height: 1.4;
-    color: #A75225;
+    color: #A1B1B7;
     padding: 0px 0px;
     margin: 0px auto 25px auto;
 }
 
 p {
-	font-family: garamond, serif;
+	font-family: KansasNew Medium, serif;
 	font-size: 1.2em;
     line-height: 1.6;
-    color: #A75225;
+    color: #A1B1B7;
 }
 nav{
-	font-family: garamond, serif;
+	font-family: KansasNew Medium, serif;
 	font-size: 1.2em;
 	width: 400px;
 	margin: 0 auto;
@@ -134,7 +134,7 @@ a{
 	font-weight: bold;
 }
 a:hover{
-	color: black;
-	background: rgb(255, 255, 255);
+	color: #A75225;
+	background: #A1B1B7(255, 255, 255);
 	}	
 
