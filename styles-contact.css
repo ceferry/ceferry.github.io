@@ -60,27 +60,29 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/bricks_bg.jpg)
+  background: url(/images/coast_background.jpeg)
   center center fixed no-repeat;
   background-size: cover;
-
+	font-family: "helvetica", sans-serif;
 	
 	
 }
 
 .center {
-    width: 800px;
+    width: 80%;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+ 	background: rgba(255, 255, 255, 0.60); /*this uses opacity of 75% for the background color*/
 	text-align: center;
-	border: 4px dashed white;
 }
+
+
+
 
    
 #logo {
-    margin-bottom: 16px;
-	border: 3px dashed red;
+    margin-bottom: 50px;
+	margin-top: 40px;
 	text-align: center;
 }
 
