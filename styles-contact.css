@@ -63,7 +63,9 @@ html, body {
   background: url(/images/coast_background.jpeg)
   center center fixed no-repeat;
   background-size: cover;
-	font-family: "helvetica", sans-serif;
+	font-family: kansasnew, serif; <link rel="stylesheet" href="https://use.typekit.net/ysr3eor.css"> , serif;
+
+
 	
 	
 }
