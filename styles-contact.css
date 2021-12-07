@@ -72,7 +72,7 @@ html, body {
     width: 80%;
 	padding: 2%;
     margin: 100px auto;
-	background: rgba(255, 255, 255, 0.60); /*this uses opacity of 75% for the background color*/
+	background: #BCCFD8(255, 255, 255, 0.50); /*this uses opacity of 75% for the background color*/
 	text-align: center;
 }
 
@@ -130,7 +130,7 @@ nav a{
 }
 
 a{
-	color:#A1B1B7;
+	color:#4A79A2;
 	text-decoration: none;
 	font-weight: bold;
 }
