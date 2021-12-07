@@ -86,7 +86,7 @@ html, body {
 }
 
 h1 {
-	font-family: , serif;
+	font-family: <link rel="stylesheet" href="https://use.typekit.net/ysr3eor.css">	, serif;
 	font-size: 2em;
     margin: 0px auto 10px auto;
     color: #A1B1B7;
@@ -133,8 +133,7 @@ a{
 	text-decoration: none;
 	font-weight: bold;
 }
-a:hover{
-	color: #A1B1B7;
-	background: #ffffff(255, 255, 255);
-	}	
+a:hover {
+	background-color: #073e52;
+  }	
 
