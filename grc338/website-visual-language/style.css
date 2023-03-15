@@ -1,0 +1,199 @@
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;} /*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
+body{
+	font-family: "new-spirit", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+div.home-container { 
+	background: url(jack-barton-MpHZdHkDefo-unsplash.jpg) center center fixed;
+	background-size: cover;
+	position: relative;
+	min-height: 100vh;
+	margin:auto;
+	max-width: 100% ;
+}
+
+
+div.container{
+	position: relative;
+	min-height: 100hv;
+	background-color: #eeebe3;
+	margin:auto;
+	max-width: 100% ;
+}
+
+/* >>> IMPORTANT: you have to change the wrap the content of your home page (index) in a div with a class home-container to make it work. If you used a div with the class container on your home, you’ll only need to change the name of the class.  */
+
+
+main { /*slogan*/
+	padding: 1em 2em 3em;
+	}
+
+body {
+	font-family: "new-spirit", serif;
+font-weight: 400;
+font-style: normal;
+		}
+
+img {
+    width: 100%; /*Please leave this line.*/
+     display: block;
+}
+
+header {/*affects the gray background*/
+	display: grid;
+	grid-template-columns: 35% auto;
+	background: none;
+	padding: 1.5em 1em 1em;
+	}
+
+h1 /*logo*/{
+	width:10em;
+	align-self: center;
+	
+	}
+
+h2/*menu*/, h3/*category*/, h4/*product*/ {
+		font-weight:bold;
+	}
+
+h2 /*"menu","hours", "contact"*/{
+	font-size: 2.2em;
+	margin: 1.5em 0em 0em 0em;
+	padding-bottom: .4em;
+	padding-top: .5em;
+	}
+	
+h3/*categorys*/ {
+	font-size: 1.5em;
+	margin: 1.5em 0em 0em 1.5em;
+}
+
+h4/*Products*/ {
+	font-size: 1.1em;
+	margin: 1.2em 0em 0em 1.8em;
+}
+
+
+a {
+	text-decoration:none;
+	}
+
+nav ul  {
+	text-align:right;
+	}
+	
+ul li 	{
+	list-style-type:none;
+}
+
+figure /*about and contact image*/{
+	margin: 1em m;
+}
+
+main.menu ul {
+	margin: .5em 0em 0em;
+}	
+
+
+main.menu ul li {
+		margin: .5em 0em 1em;
+		display: grid;
+		grid-template-columns: auto auto;
+		grid-template-rows: auto auto;
+}	
+
+p /*body of about, hours*/{
+	margin: 1em 0em 1em;
+	}
+	
+p.description {
+	grid-column: 1;
+	grid-row: 2;
+	margin: 0 0em 2em 2em;
+	}
+	
+p.price {
+	grid-row:1;
+	grid-column: 2;
+	color:rgb(255, 0, 0);
+	text-align:right;
+	margin: 2em 3em 0em 0em;
+	}
+	
+nav ul li { /*about, menu, contact nav*/
+	font-size: 1.2em;
+	padding: .5em .5em .5em;
+	font-family: "new-spirit", serif;
+	font-weight: 400;
+	font-style: normal;	
+	}
+	
+nav ul li a {
+	color: rgb(29, 28, 28);
+	background-color: none;
+	padding: .3em;
+	}
+
+	nav ul li.selected a { 
+		color:  #eeebe3;
+		background-color: #cf242b;
+	}
+	
+
+p.slogan {
+	font-family: "new-spirit", serif;
+	font-weight: 400;
+	font-style: normal;
+	margin: 1em 0em 2em 0em;
+	color:#eeebe3;	
+	}
+	
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3rem; 
+  box-sizing: border-box;
+  padding: 1em 1em;
+  background: #eeebe3;
+}
+
+article{
+	background-color: #eeebe3;
+	margin: 0 10em;
+}
+address /*"123 Happy Ave, San Luis Obispo, California 805-756-3663" on home and contact*/{
+	color: #eeebe3;
+	line-height:120%;
+	}
+
+footer p {
+	margin: 0;
+	
+}
+
+@media screen and (min-width: 60em) {
+
+	nav ul li{
+		font-size: 2em;
+		display: inline-block;
+		margin: 1em .5em 1em .5em;
+	}
+	main.menu ul{
+			display: grid;
+			grid-template-columns: auto auto;
+			
+	}
+
+	body{
+		background-color: #eeebe3;
+		padding: 0em 3em 0em 3em;
+		display: grid;
+
+	}
+
+}
