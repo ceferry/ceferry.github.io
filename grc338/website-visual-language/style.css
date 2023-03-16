@@ -1,0 +1,224 @@
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;} /*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
+body{
+	font-family: "new-spirit", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+div.home-container { 
+	background: url(homepageimg.jpg) center center fixed;
+	background-size: cover;
+	position: relative;
+	min-height: 100vh;
+	margin:auto;
+	max-width: 100% ;
+}
+
+
+div.container{
+	position: relative;
+	min-height: 100hv;
+	background-color: #eeebe3;
+	margin:auto;
+	max-width: 100% ;
+}
+
+/* >>> IMPORTANT: you have to change the wrap the content of your home page (index) in a div with a class home-container to make it work. If you used a div with the class container on your home, you’ll only need to change the name of the class.  */
+
+
+main { /*all content in home*/
+	padding: 0em 2em 3em 0em;
+	}
+
+body {
+	font-family: "new-spirit", serif;
+	font-weight: 400;
+	font-style: normal;
+	}
+
+img {
+    width: 100%; /*Please leave this line.*/
+     display:block;
+	 align-items: center;
+}
+
+header {/*affects the background of logo and nav*/
+	display: grid;
+	grid-template-columns: 35% auto;
+	background: none;
+	padding: 1.5em 1em 1em;
+	}
+
+h1 /*logo*/{
+	width:15em;
+	align-self: center;
+	}
+
+h2/*menu*/, h3/*category*/, h4/*product*/ {
+		font-weight:bold;
+	}
+
+h2 /*"hours", "contact"*/{
+	font-size: 2.2em;
+	margin: 1.5em 0em 0em 1em;
+	padding-bottom: .4em;
+	padding-top: .5em;
+	text-align: center;
+	}
+	
+h3/*categories(snacks, bevs, sweet)*/ {
+	font-size: 1.8em;
+	margin: 1.5em 0em 0em .6em;
+	color: #123a20;
+}
+
+h4/*Products*/ {
+	font-size: 1.1em;
+	margin: 1.2em 0em 0em 1.8em;
+	color: #1e5b34;
+}
+
+
+a {
+	text-decoration:none;
+	}
+
+nav ul  {
+	text-align:right;
+	}
+	
+ul li 	{
+	list-style-type:none;
+}
+
+figure /*about and contact image*/{
+	margin: 1em;
+}
+
+main.menu ul {
+	margin: .5em 0em 0em;
+}	
+
+
+main.menu ul li {
+		margin: .5em 0em 1em;
+		display: grid;
+		grid-template-columns: auto auto;
+		grid-template-rows: auto auto;
+}	
+
+p /*body of about, hours*/{
+	margin: 1em 0em 1em;
+	}
+
+	p.about {
+	color: #000000;
+	font-size: 1.3em;
+		}
+	
+p.description {
+	grid-column: 1;
+	grid-row: 2;
+	margin: 0 0em 2em 2em;
+	}
+	
+p.price {
+	grid-row:1;
+	grid-column: 2;
+	color:#1e5b34;
+	text-align:right;
+	margin: 1.3em 3em 0em 5em;
+	}
+	
+nav ul li { /*about, menu, contact nav*/
+	font-size: 1.8em;
+	padding: .5em .5em .5em;
+	font-weight: bold;
+	}
+	
+nav ul li a {
+	color: #c03735;
+	background-color: none;
+	padding: .3em;
+	}
+
+	nav ul li.selected a { 
+		color:  #eeebe3;
+		background-color: #c03735;
+		padding: .3em;
+		border-radius: .5em;
+	}
+	
+
+p.slogan { /*just affects slogan*/
+	font-size: 3em;
+	font-style: normal;
+	text-align:right;
+	color:#eeebe3;	
+	text-align: right;
+	margin: 5em 1em 1.5em 7em;
+	text-shadow: 0px 0px 2px rgb(0, 0, 0);	
+	}
+	
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3em; 
+  box-sizing: border-box;
+  padding: 1em 0em 0em 1em;
+  background: #eeebe3;
+}
+
+article{
+	background-color:none;
+	margin: 0 10em;
+
+}
+address {
+	color: #ad913d;
+	line-height:120%;
+	padding: 0em 0em 0em 0em;
+	}
+
+p.contactinfo{
+	line-height:100%;
+	text-align: center;
+}
+
+p.addresshome { /*just affects slogan*/
+		color: #eeebe3;
+		margin: .2em 2em 0em 1em;
+		padding-bottom: .5em;
+		text-shadow: 0px 0px 2px rgb(0, 0, 0);	
+		text-align: right;	
+		}
+	
+footer p {
+	margin: 0;
+	
+}
+
+@media screen and (min-width: 60em) {
+
+	nav ul li{
+		font-size: 1.8em;
+		display: inline-block;
+		margin: 1em .5em 1em .5em;
+	}
+	main.menu ul{
+			display: grid;
+			grid-template-columns: auto auto;
+			
+	}
+
+	body{
+		background-color: #eeebe3;
+		padding: 0em 3em 0em 3em;
+		display: grid;
+
+	}
+
+}
