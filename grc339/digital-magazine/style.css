@@ -1,0 +1,67 @@
+
+
+/*CSS document*/
+
+body {
+    background-color: rgb(254, 252, 247)
+}
+
+div.container {
+    max-width: 25em;
+    margin: auto;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+h1{
+    width:5em
+}
+
+h2{
+    text-decoration:none;
+    font-family: "panel-sans", sans-serif;
+    font-weight: 900;
+    font-style: normal; 
+    color:rgb(239, 109, 77);
+}
+
+h3{
+    text-decoration:none;
+    font-family: "panel-sans", sans-serif;
+    font-weight: 900;
+    font-style: normal; 
+    color:rgb(239, 109, 77);
+}
+
+p{
+text-decoration: none;
+font-family: "panel-sans", sans-serif;
+font-weight: 400;
+font-style: normal;
+color:rgb(19, 6, 2);
+}
+
+figcaption{
+    font-family: "panel-sans", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+a{
+    text-decoration: none;
+    font-family: "panel-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:black 
+}
