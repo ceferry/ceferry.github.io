@@ -7,8 +7,17 @@ body {
 }
 
 div.container {
-    max-width: 25em;
+    max-width: 80em;
     margin: auto;
+}
+
+header{
+    grid-column: 1/3;
+}
+
+section{
+    max-width: 40em;
+    margin: 0 auto 3em;
 }
 
 figure {
@@ -57,11 +66,69 @@ figcaption{
     font-weight: 300;
     font-style: italic;
 }
+nav ul li{
+    display: inline;
+    margin-right: 1em;
+}
 
 a{
     text-decoration: none;
     font-family: "panel-sans", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color:black 
+    color:black; 
 }
+section.tertiary{
+    border-top: 2px solid rgb(239, 109, 77);
+}
+
+@media screen and (min-width: 60em){
+
+    div.container{
+        max-width: 80em;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-gap:0 1em;
+    }
+    header{
+        grid-column: 1/3;
+    }
+    section{
+        max-width: 60em;
+        margin: 0 auto;
+    }
+    main{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap:0 1em
+    }
+
+
+    section.mainstory{
+        grid-column:2/4;
+        grid-row:1/3;
+        display: flex;
+        flex-direction: column;
+    }
+    section.mainstory a{
+        flex: 1 0 10em;
+        display: flex;
+        flex-direction: column;
+    }
+    section.mainstory a figure{
+        flex:1 0 10em;
+    }
+    section.mainstory a figure img{
+        height: 95%;
+        object-fit:cover;
+    }
+
+    section.mainstory a h3{
+        flex:0 0 auto;
+        margin:0;
+    }
+    section.mainstory a p{
+        flex: 0 0 auto;
+    }
+}
+
