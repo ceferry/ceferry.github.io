@@ -261,3 +261,37 @@ textarea {
     }
 }
 
+@media screen and (prefers-color-scheme: dark) {
+
+    body,div.container{
+        background-color: #373737;
+    }
+
+
+
+    p,a,figcaption,label{
+        color:rgb(221, 218, 210)
+    }
+
+    h2, h3{
+        color: #F7B2A1;
+    }
+
+    section.tertiary{
+        border-top: 2px solid #F7B2A1;
+    }
+
+    h1{
+        background-image:url(dingbatlogo-alt.png);
+        background-repeat:no-repeat;
+        background-size: contain;
+    }
+
+    h1 img{
+        opacity: 0;
+    }
+
+}
+
+
+
