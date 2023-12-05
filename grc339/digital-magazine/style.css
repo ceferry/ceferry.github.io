@@ -144,13 +144,13 @@ nav.gallery_nav {
 
 /* newsletter section */
 
-div.news_container {
-    margin: auto;
-}
+/*div.news_container {
+   margin: auto;
+}*/
 
-div.newsletter_container {
+/*div.newsletter_container {
     max-width: 40rem;
-}
+} */
 
 section.personal-info ul li {
 	display: flex;
